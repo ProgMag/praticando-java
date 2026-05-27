@@ -1,3 +1,5 @@
+package alura.praticando.variaveis.atividadeum;
+
 public class DeclarandoVariaveis {
     public static void main(String[] args) {
        String nome = "Guilherme";

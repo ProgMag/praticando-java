@@ -20,6 +20,8 @@ public class Aprovacao {
 
         double mediaDoAluno = calcularMedia(nota1, nota2, nota3, nota4);
         verificarAprovacao(mediaDoAluno);
+
+        input.close();
     }
 
     public static void verificarAprovacao(double mediaDoAluno) {

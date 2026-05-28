@@ -14,6 +14,7 @@ public class VerificaCompras {
 
         verificarCompras(valor, desconto);
 
+        input.close();
     }
 
     public static void verificarCompras(double valorDaCompra,double desconto) {

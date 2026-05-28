@@ -13,5 +13,7 @@ public class ParOuImpar {
         } else {
             System.out.println("O número " + numeroParOuImpar + " é ímpar");
         }
+
+        input.close();
     }
 }

@@ -16,6 +16,8 @@ public class ClassificacaoCategoria {
         } else {
             System.out.println("Categoria: Premium.");
         }
+
+        input.close();
     }
 }
 

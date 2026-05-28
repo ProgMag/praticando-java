@@ -15,6 +15,7 @@ public class CoparaNumero {
 
         verificarNumeros(primeiroNumero, segundoNumero);
 
+        input.close();
     }
 
     public static void verificarNumeros(int primeiroNumero, int segundoNumero){

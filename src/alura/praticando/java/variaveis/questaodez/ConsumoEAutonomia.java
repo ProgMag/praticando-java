@@ -23,6 +23,8 @@ public class ConsumoEAutonomia {
         double autonomiaAtual = calcularAutonomiaAtual(consumoMedio, combustivelAtual);
 
         verificarSePodeViajar(autonomiaAtual, distanciaViagem, autonomiaMaxima);
+
+        input.close();
     }
 
     public static double calcularAutonomiaMaxima(double consumoMedio, double capacidadeTanque) {

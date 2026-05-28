@@ -14,5 +14,7 @@ public class ConversorDeMoedas {
         System.out.format("""
                 %.2f reias é %.2f dólares
                 """, valorEmReal, valorEmDola);
+
+        input.close();
     }
 }

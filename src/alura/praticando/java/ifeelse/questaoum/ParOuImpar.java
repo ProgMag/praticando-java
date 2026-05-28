@@ -12,6 +12,7 @@ public class ParOuImpar {
 
         verificarParOuImpar(numeroPaOuImpar);
 
+        input.close();
     }
 
     public static void verificarParOuImpar(int numeroPaOuImpar) {

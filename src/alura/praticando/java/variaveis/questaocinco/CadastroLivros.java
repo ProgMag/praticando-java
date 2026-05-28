@@ -1,4 +1,4 @@
-package alura.praticando.java.variaveis.atividadecinco;
+package alura.praticando.java.variaveis.questaocinco;
 
 public class CadastroLivros {
     public static void main(String[] args) {

@@ -12,6 +12,7 @@ public class ValidacaoSenha {
 
         validarSenha(minhaSenha);
 
+        input.close();
     }
 
     public static void validarSenha(String minhaSenha) {

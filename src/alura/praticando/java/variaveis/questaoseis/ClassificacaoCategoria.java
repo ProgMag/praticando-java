@@ -1,4 +1,4 @@
-package alura.praticando.variaveis.questaoseis;
+package alura.praticando.java.variaveis.questaoseis;
 
 import java.util.Scanner;
 

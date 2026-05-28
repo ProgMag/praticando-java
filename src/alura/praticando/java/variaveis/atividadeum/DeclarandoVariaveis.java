@@ -1,4 +1,4 @@
-package alura.praticando.variaveis.atividadeum;
+package alura.praticando.java.variaveis.atividadeum;
 
 public class DeclarandoVariaveis {
     public static void main(String[] args) {

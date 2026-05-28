@@ -1,4 +1,4 @@
-package alura.praticando.variaveis.atividadedois;
+package alura.praticando.java.variaveis.atividadedois;
 
 public class ConversaoTipos {
     public static void main(String[] args) {

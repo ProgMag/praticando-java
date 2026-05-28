@@ -1,4 +1,4 @@
-package alura.praticando.variaveis.atividadetres;
+package alura.praticando.java.variaveis.atividadetres;
 
 public class PrimitivosEmAcao {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package alura.praticando.variaveis.atividadequatro;
+package alura.praticando.java.variaveis.atividadequatro;
 
 import java.util.Scanner;
 

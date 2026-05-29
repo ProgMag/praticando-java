@@ -12,6 +12,8 @@ public class CalculaFatorial {
         double resultadoFatorial = calcularFatorial(numero);
 
         System.out.println("O fatorial de " + numero + " é: " + resultadoFatorial);
+
+        input.close();
     }
 
     static double calcularFatorial(double numero) {

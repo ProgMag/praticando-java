@@ -5,27 +5,34 @@ import java.util.Scanner;
 public class VerificaCompatibilidade {
     public static void main(String[] args) {
 
+        int idadeMinima = 18;
+        int idadeMaxima = 65;
+        int peso = 50;
+
         Scanner input = new Scanner(System.in);
         System.out.println("Digite a idade do doador: ");
-        int idade = input.nextInt();
+        int idadeUsuario = input.nextInt();
 
         System.out.println("Digite o peso do doador (em kg): ");
-        double peso = input.nextDouble();
+        int pesoUsuario = input.nextInt();
 
-        verificarCompatibilidade(idade, peso);
+        boolean idadeCorreta = idadeUsuario >= idadeMinima && idadeUsuario <= idadeMaxima;
+        boolean pesoCorreto = pesoUsuario >= peso;
+
+        verificarCompatibilidade(idadeCorreta, pesoCorreto);
 
         input.close();
     }
 
-    public static void verificarCompatibilidade(int idade, double peso) {
-        if (idade >= 18 && idade <= 65 && peso > 50) {
+    public static void verificarCompatibilidade(boolean idadeCorreta, boolean pesoCorreto) {
+        if (idadeCorreta && pesoCorreto) {
             System.out.println("O doador é compatível.");
-        } else if (idade < 18 && peso < 50) {
+        } else if (!pesoCorreto && !idadeCorreta) {
             System.out.println("""
                     O doador não é compatível.
-                    Motivo: Deve ter entre 18 e 65 anos e deve ter mais de 50kg.
+                    Motivo: Deve ter entre 18 anos e 65 anos e deve ter mais de 50kg..
                     """);
-        } else if (idade < 18) {
+        } else if (!idadeCorreta) {
             System.out.println("""
                     O doador não é compatível.
                     Motivo: Deve ter entre 18 e 65 anos.

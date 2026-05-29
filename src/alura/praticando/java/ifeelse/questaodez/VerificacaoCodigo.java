@@ -21,6 +21,8 @@ public class VerificacaoCodigo {
         boolean permissaoCorreta = nivelPermissao >= nivelPermissaoMinimo && nivelPermissao <= nivelPermissaoMaximo; // true
 
         verificarPermissao(codigoCorreto, permissaoCorreta);
+
+        input.close();
     }
 
     public static void verificarPermissao(boolean codigo, boolean nivelPermissao) {

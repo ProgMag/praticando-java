@@ -9,12 +9,11 @@ public class EncontraMaiorNumero {
 
         int[] listaNumeros = new int[5];
 
-        System.out.println("Digite os números separados por espaço");
-        listaNumeros[0] = input.nextInt();
-        listaNumeros[1] = input.nextInt();
-        listaNumeros[2] = input.nextInt();
-        listaNumeros[3] = input.nextInt();
-        listaNumeros[4] = input.nextInt();
+        System.out.println("Digite os 5 números separados por espaço");
+
+        for (int i = 0; i < listaNumeros.length; i++) {
+            listaNumeros[i] = input.nextInt();
+        }
 
         int maiorNumero = listaNumeros[0];
 

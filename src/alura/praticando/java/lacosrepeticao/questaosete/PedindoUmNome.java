@@ -7,6 +7,12 @@ public class PedindoUmNome {
 
         Scanner input = new Scanner(System.in);
 
+        verificarNome(input);
+
+        input.close();
+    }
+
+    static void verificarNome(Scanner input) {
         String nome;
 
         do {
@@ -19,6 +25,5 @@ public class PedindoUmNome {
         } while (nome.length() < 3);
 
         System.out.println("Nome \"" + nome + "\" cadastrado com sucesso!");
-        input.close();
     }
 }

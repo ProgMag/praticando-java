@@ -10,6 +10,12 @@ public class PositivoOuNegativo {
         int totalNegativos = 0;
         int totalPositivos = 0;
 
+        verificarNumeros(input, totalNegativos, totalPositivos);
+
+        input.close();
+    }
+
+    static void verificarNumeros(Scanner input, int totalPositivos, int totalNegativos) {
         while (true) {
 
             System.out.println("Digite um número (ou 'fim' para encerrar): ");
@@ -34,7 +40,5 @@ public class PositivoOuNegativo {
 
         System.out.println("Números positivos: " + totalPositivos);
         System.out.println("Números negativos: " + totalNegativos);
-
-        input.close();
     }
 }
